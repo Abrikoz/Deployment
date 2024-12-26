@@ -1,0 +1,6 @@
+CREATE TABLE monitored_apps (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    url VARCHAR(500) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
